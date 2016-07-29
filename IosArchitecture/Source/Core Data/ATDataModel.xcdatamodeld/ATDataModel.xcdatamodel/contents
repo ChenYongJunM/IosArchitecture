@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="ATBank" representedClassName="ATBank" syncable="YES">
+        <attribute name="isNewRecord" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bankInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ATBankInfo" inverseName="bank" inverseEntity="ATBankInfo" syncable="YES"/>
+    </entity>
+    <entity name="ATBankInfo" representedClassName="ATBankInfo" syncable="YES">
+        <attribute name="accountName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="accountNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="branchName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isNewRecord" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="province" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopId" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="bank" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ATBank" inverseName="bankInfo" inverseEntity="ATBank" syncable="YES"/>
+        <relationship name="shop" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ATShop" inverseName="bankInfo" inverseEntity="ATShop" syncable="YES"/>
+    </entity>
+    <entity name="ATShop" representedClassName="ATShop" syncable="YES">
+        <attribute name="avatarUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="idCard" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="levelName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="parentShopName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shopNum" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="totalFund" optional="YES" attributeType="Decimal" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="bankInfo" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ATBankInfo" inverseName="shop" inverseEntity="ATBankInfo" syncable="YES"/>
+    </entity>
+    <entity name="ATUser" representedClassName="ATUser" syncable="YES">
+        <attribute name="buyerToken" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="guruId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passWord" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phoneNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="supplierBind" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="token" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="ATBank" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ATBankInfo" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ATShop" positionX="0" positionY="0" width="0" height="0"/>
+        <element name="ATUser" positionX="0" positionY="0" width="0" height="0"/>
+    </elements>
+</model>
