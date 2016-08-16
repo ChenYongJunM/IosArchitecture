@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		743E473E1D4F35170066F609 /* NSDate+HYBHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E473D1D4F35170066F609 /* NSDate+HYBHelperKit.m */; };
+		743E47411D4F35310066F609 /* NSTimer+HYBHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E47401D4F35310066F609 /* NSTimer+HYBHelperKit.m */; };
+		743E47441D4F35630066F609 /* NSString+HYBHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E47431D4F35630066F609 /* NSString+HYBHelperKit.m */; };
+		743E47471D4F359F0066F609 /* NSDictionary+HYBHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E47461D4F359F0066F609 /* NSDictionary+HYBHelperKit.m */; };
+		743E474A1D4F35B50066F609 /* UIAlertView+HYBHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E47491D4F35B50066F609 /* UIAlertView+HYBHelperKit.m */; };
+		743E474D1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E474C1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.m */; };
+		743E47501D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E474F1D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.m */; };
+		743E47531D4F36EE0066F609 /* NSArray+HYBHelperKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 743E47521D4F36EE0066F609 /* NSArray+HYBHelperKit.m */; };
 		747222E81D4AF99D00563582 /* CustomRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 747222E71D4AF99D00563582 /* CustomRefresh.m */; };
 		748096991D4B3E0A0053040A /* jpush-ios-2.1.8.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 748096971D4B3E0A0053040A /* jpush-ios-2.1.8.a */; };
 		7480969B1D4B41010053040A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7480969A1D4B41010053040A /* CFNetwork.framework */; };
@@ -103,6 +111,23 @@
 		08F4C68D4EB94997D802A575 /* libPods-IosArchitecture.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IosArchitecture.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41750681A7EEE0B4291A6803 /* Pods-IosArchitecture.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosArchitecture.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IosArchitecture/Pods-IosArchitecture.debug.xcconfig"; sourceTree = "<group>"; };
 		5BDC5AC4B7071BF46A41E4C7 /* Pods-IosArchitecture.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IosArchitecture.release.xcconfig"; path = "Pods/Target Support Files/Pods-IosArchitecture/Pods-IosArchitecture.release.xcconfig"; sourceTree = "<group>"; };
+		743E473C1D4F35170066F609 /* NSDate+HYBHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+HYBHelperKit.h"; sourceTree = "<group>"; };
+		743E473D1D4F35170066F609 /* NSDate+HYBHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+HYBHelperKit.m"; sourceTree = "<group>"; };
+		743E473F1D4F35310066F609 /* NSTimer+HYBHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+HYBHelperKit.h"; sourceTree = "<group>"; };
+		743E47401D4F35310066F609 /* NSTimer+HYBHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+HYBHelperKit.m"; sourceTree = "<group>"; };
+		743E47421D4F35630066F609 /* NSString+HYBHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HYBHelperKit.h"; sourceTree = "<group>"; };
+		743E47431D4F35630066F609 /* NSString+HYBHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HYBHelperKit.m"; sourceTree = "<group>"; };
+		743E47451D4F359F0066F609 /* NSDictionary+HYBHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HYBHelperKit.h"; sourceTree = "<group>"; };
+		743E47461D4F359F0066F609 /* NSDictionary+HYBHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HYBHelperKit.m"; sourceTree = "<group>"; };
+		743E47481D4F35B50066F609 /* UIAlertView+HYBHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+HYBHelperKit.h"; sourceTree = "<group>"; };
+		743E47491D4F35B50066F609 /* UIAlertView+HYBHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+HYBHelperKit.m"; sourceTree = "<group>"; };
+		743E474B1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+HYBHelperKitUIKit.h"; sourceTree = "<group>"; };
+		743E474C1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+HYBHelperKitUIKit.m"; sourceTree = "<group>"; };
+		743E474E1D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HYBHelperKitUIKit.h"; sourceTree = "<group>"; };
+		743E474F1D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HYBHelperKitUIKit.m"; sourceTree = "<group>"; };
+		743E47511D4F36EE0066F609 /* NSArray+HYBHelperKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+HYBHelperKit.h"; sourceTree = "<group>"; };
+		743E47521D4F36EE0066F609 /* NSArray+HYBHelperKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+HYBHelperKit.m"; sourceTree = "<group>"; };
+		743E47541D4F37300066F609 /* HYBHelperKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYBHelperKit.h; sourceTree = "<group>"; };
 		747222E61D4AF99D00563582 /* CustomRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRefresh.h; sourceTree = "<group>"; };
 		747222E71D4AF99D00563582 /* CustomRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRefresh.m; sourceTree = "<group>"; };
 		748096971D4B3E0A0053040A /* jpush-ios-2.1.8.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "jpush-ios-2.1.8.a"; sourceTree = "<group>"; };
@@ -416,6 +441,23 @@
 				748221AD1D4759EF00D48C44 /* UIView+CYJHelperKitUIKit.m */,
 				74A657261D47633C004D470F /* UIViewController+Extension.h */,
 				74A657271D47633C004D470F /* UIViewController+Extension.m */,
+				743E473C1D4F35170066F609 /* NSDate+HYBHelperKit.h */,
+				743E473D1D4F35170066F609 /* NSDate+HYBHelperKit.m */,
+				743E473F1D4F35310066F609 /* NSTimer+HYBHelperKit.h */,
+				743E47401D4F35310066F609 /* NSTimer+HYBHelperKit.m */,
+				743E47421D4F35630066F609 /* NSString+HYBHelperKit.h */,
+				743E47431D4F35630066F609 /* NSString+HYBHelperKit.m */,
+				743E47451D4F359F0066F609 /* NSDictionary+HYBHelperKit.h */,
+				743E47461D4F359F0066F609 /* NSDictionary+HYBHelperKit.m */,
+				743E47481D4F35B50066F609 /* UIAlertView+HYBHelperKit.h */,
+				743E47491D4F35B50066F609 /* UIAlertView+HYBHelperKit.m */,
+				743E47511D4F36EE0066F609 /* NSArray+HYBHelperKit.h */,
+				743E47521D4F36EE0066F609 /* NSArray+HYBHelperKit.m */,
+				743E474B1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.h */,
+				743E474C1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.m */,
+				743E474E1D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.h */,
+				743E474F1D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.m */,
+				743E47541D4F37300066F609 /* HYBHelperKit.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -922,13 +964,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				743E47441D4F35630066F609 /* NSString+HYBHelperKit.m in Sources */,
 				748221981D4758F200D48C44 /* ATShop.m in Sources */,
 				748221AE1D4759EF00D48C44 /* UIView+CYJHelperKitUIKit.m in Sources */,
 				748221911D4758F200D48C44 /* TestObj.m in Sources */,
+				743E474A1D4F35B50066F609 /* UIAlertView+HYBHelperKit.m in Sources */,
 				74A657381D476674004D470F /* NSFetchedResultsController+NLCoreData.m in Sources */,
 				748221801D4758F200D48C44 /* XQFeedModel.m in Sources */,
 				748221721D4758F200D48C44 /* VCAboutViewController.m in Sources */,
 				748221A31D4758F200D48C44 /* MHAsiNetworkHandler.m in Sources */,
+				743E47531D4F36EE0066F609 /* NSArray+HYBHelperKit.m in Sources */,
 				748221921D4758F200D48C44 /* TestTableViewCell.m in Sources */,
 				7482217D1D4758F200D48C44 /* FDFeedEntity.m in Sources */,
 				748221AB1D47595300D48C44 /* MBProgressHUD+Add.m in Sources */,
@@ -937,16 +982,19 @@
 				74A657371D476674004D470F /* NLCoreDataCommon.m in Sources */,
 				748221761D4758F200D48C44 /* VCDiscoveryViewController.m in Sources */,
 				748221971D4758F200D48C44 /* ATDataModel.xcdatamodeld in Sources */,
+				743E47471D4F359F0066F609 /* NSDictionary+HYBHelperKit.m in Sources */,
 				748221A11D4758F200D48C44 /* CYBaseNavigationViewController.m in Sources */,
 				7482219F1D4758F200D48C44 /* CYBaseTableViewController.m in Sources */,
 				74A6573A1D476674004D470F /* NSManagedObject+NLCoreData.m in Sources */,
 				7482219E1D4758F200D48C44 /* CYBaseModelCell.m in Sources */,
+				743E47411D4F35310066F609 /* NSTimer+HYBHelperKit.m in Sources */,
 				7482218C1D4758F200D48C44 /* VCMyStoreViewController.m in Sources */,
 				748221A61D4758F200D48C44 /* MHUploadParam.m in Sources */,
 				748221741D4758F200D48C44 /* VCAboutAvatarCell.m in Sources */,
 				74A657451D48480C004D470F /* JPFPSStatus.m in Sources */,
 				748221961D4758F200D48C44 /* ATBankInfo.m in Sources */,
 				748221951D4758F200D48C44 /* ATBank.m in Sources */,
+				743E473E1D4F35170066F609 /* NSDate+HYBHelperKit.m in Sources */,
 				7482217A1D4758F200D48C44 /* VCLoginModel.m in Sources */,
 				7482219D1D4758F200D48C44 /* BaseModel.m in Sources */,
 				74A657281D47633C004D470F /* UIViewController+Extension.m in Sources */,
@@ -960,9 +1008,11 @@
 				74A657361D476674004D470F /* NLCoreData.m in Sources */,
 				748221A81D4758F200D48C44 /* GOCustomNaviBarView.m in Sources */,
 				7482217B1D4758F200D48C44 /* FDFeedCell.m in Sources */,
+				743E474D1D4F35C90066F609 /* UIDevice+HYBHelperKitUIKit.m in Sources */,
 				7482217E1D4758F200D48C44 /* VCMessageViewController.m in Sources */,
 				748220941D47556200D48C44 /* AppDelegate.m in Sources */,
 				747222E81D4AF99D00563582 /* CustomRefresh.m in Sources */,
+				743E47501D4F35D40066F609 /* UIColor+HYBHelperKitUIKit.m in Sources */,
 				748221A51D4758F200D48C44 /* MHNetworkManager.m in Sources */,
 				7482219A1D4758F200D48C44 /* VCCDataHelper.m in Sources */,
 				748221A01D4758F200D48C44 /* CYModelTableViewController.m in Sources */,

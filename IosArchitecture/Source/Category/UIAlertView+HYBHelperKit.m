@@ -8,8 +8,10 @@
 
 #import "UIAlertView+HYBHelperKit.h"
 #import <objc/runtime.h>
-#import "HYBCommonKit.h"
 #import "NSArray+HYBHelperKit.h"
+
+// Judge whether it is a valid array.
+#define kIsArray(objArray) (objArray != nil && [objArray isKindOfClass:[NSArray class]])
 
 static const void *s_privateAlertViewKey = "s_privateAlertViewKey";
 
